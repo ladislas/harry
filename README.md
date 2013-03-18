@@ -3,7 +3,7 @@
 
 ##FTP Info
 
-harrywishyouwell.com
-Serveur ftp: ftp.harrywishyouwell.com ou ftp.cluster015.ovh.net
-Login ou utilisateur: harrywis
-Mot de passe: pm9b2jEi
+harrywishyouwell.com<br>
+Serveur ftp: ftp.harrywishyouwell.com ou ftp.cluster015.ovh.net<br>
+Login ou utilisateur: harrywis<br>
+Mot de passe: pm9b2jEi<br>
