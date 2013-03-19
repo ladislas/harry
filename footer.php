@@ -8,32 +8,12 @@
 
 		<p>&copy; 2013 HarryWishYouWell. All Rights Reserved.</p>
 
-		<ul class="footer-links">
-
-			<li><a class="icon facebook sm" href="https://www.facebook.com/LekaSmartToys">Facebook</a></li>
-
-			<li class="muted">&middot;</li>
-
-			<li><a class="icon twitter sm" href="https://twitter.com/LekaSmartToys">Twitter</a></li>
-
-			<li class="muted">&middot;</li>
-
-			<li><a class="icon github sm" href="https://github.com/lekasmarttoys">GitHub</a></li>
-
-			<li class="muted">&middot;</li>
-
-			<li><a class="icon blog sm" href="http://leka-smarttoys.com/blog/">Blog</a></li>
-
-			<li class="muted">&middot;</li>
-
-			<li><a class="icon youtube sm" href="http://www.youtube.com/user/LekaSmartToy">Youtube</a></li>
-
-		</ul>
+		<hr>
 
 		<div class="thanksto">
 
 			<p>Design adapted from <a href="http://twitter.github.com/bootstrap/" alt="Twitter Bootstrap">Twitter Bootstrap</a></p>
-			<p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+			<p>Designed and built with all the love in the world by <a href="https://github.com/tinyladi" target="_blank">@tinyladi</a> and <a href="https://github.com/leka-mickael" target="_blank">@micka</a>.</p>
 
 		</div>	<!-- thanksto -->
 
