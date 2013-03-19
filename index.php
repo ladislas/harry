@@ -1,10 +1,13 @@
+<!-- ====== -->
+<!-- HEADER -->
+<!-- ====== -->
+
+<?php 
+  require 'header.php';
+?>
 
 
-
-<html>
-<body>
-
-<h1>Welcome to TopSecret Text Typer</h1>
+<h1>Welcome to HarryWishYouWell.com</h1>
 
 <p>Here you can type all the text you want without someone seeing it.</p>
 <p>Then you just add your email and it will send it to you directly.</p>
@@ -38,6 +41,3 @@ else
 ?>
 
 <p><a href=".">Go back for another secret email!</a></p>
-
-</body>
-</html>
