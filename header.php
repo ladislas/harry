@@ -5,7 +5,7 @@
 <head>	
 	<meta charset="utf-8">
 	
-	<title>Papa Wish You Well</title>
+	<title>Harry Wish You Well</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
