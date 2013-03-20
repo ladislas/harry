@@ -14,7 +14,7 @@
 					
 					</button>
 					
-					<a class="brand" href="./index.html">HarryWishYouWell</a>
+					<a class="brand" href="./index.html">Harry&middot;Wish&middot;You&middot;Well</a>
 					
 					<div class="nav-collapse pull-right collapse">
 						
