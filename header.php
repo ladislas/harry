@@ -6,7 +6,6 @@
 	<meta charset="utf-8">
 	
 	<title>Harry Wish You Well</title>
-	<title>Papa Papa Wish You Well</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
