@@ -5,7 +5,11 @@
 <head>	
 	<meta charset="utf-8">
 	
+<<<<<<< HEAD
 	<title>Harry Wish You Well</title>
+=======
+	<title>Papa Papa Wish You Well</title>
+>>>>>>> e5f8db94ea1b1de8e92b375f31eeb6a899842a26
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
