@@ -16,7 +16,7 @@
 
 <div class="master container"> 
 
-  <h1>Welcome to HarryWishYouWell.com</h1>
+  <h1>Welcome to HarryWishYouWell</h1>
 
   <p>Here you can type all the text you want without someone seeing it.</p>
   <p>Then you just add your email and it will send it to you directly.</p>
