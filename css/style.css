@@ -22,6 +22,11 @@
 		padding-top: 40px;
 	}
 
+	#clear {
+		position: absolute;
+		top: -1000px;
+	}
+
 	footer .container hr {
 		margin: 10px 30%;
 	}
