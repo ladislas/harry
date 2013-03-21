@@ -14,6 +14,8 @@ You'll then receive a "regular mail from a friend" with your secret note inside.
 Here are the things we want to accomplish more or less ordered by importance. We have to :
 
 *	Secure the PHP mail() - IMPORTANT
+*	Create a php template of our pages - IMPORTANT
+*	Add the FAQ and the Contact pages - IMPORTANT
 *	Create subdomain alpha.harrywishyouwell.com and redirect to it
 *	Count the number of people visiting the website - WIP
 *	Count the number of people visiting the website at the same time
