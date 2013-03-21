@@ -1,9 +1,7 @@
 var unclearText ="";
 var $this;
 
-var i=0;
-
-$('#unclear').click(function(){
+$('#unclear').focus(function(){
 	$('#clear').select();
 });
 
