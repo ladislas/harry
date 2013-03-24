@@ -14,15 +14,15 @@
 					
 					</button>
 					
-					<a class="brand" href="./index.html">Harry&middot;Wish&middot;You&middot;Well</a>
+					<a class="brand" href="./index.php">Harry&middot;Wish&middot;You&middot;Well</a>
 					
 					<div class="nav-collapse pull-right collapse">
 						
 						<ul class="nav">
 						
-							<li class="active"><a href="./index.html">Home</a></li>
-							<li><a href="./faq.html">FAQ</a></li>
-							<li><a href="./contact.html">Contact</a></li>			
+							<li class="active"><a href="./index.php">Home</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Contact</a></li>			
 						
 						</ul>
 					
