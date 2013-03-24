@@ -16,7 +16,7 @@ Here are the things we want to accomplish more or less ordered by importance. We
 *	Secure the PHP mail() - IMPORTANT
 *	Create a php template of our pages - IMPORTANT
 *	Add the FAQ and the Contact pages - IMPORTANT
-*	Create subdomain alpha.harrywishyouwell.com and redirect to it
+*	<del>Create subdomain alpha.harrywishyouwell.com and redirect to it</del>
 *	Count the number of people visiting the website - WIP
 *	Count the number of people visiting the website at the same time
 *	Count the number of secret emails sent
