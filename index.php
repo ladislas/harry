@@ -33,8 +33,8 @@
 
   else
   //if "email" is not filled out, display the form
-    {
-    echo '
+   { ?>
+   
     <p>Here you can type all the text you want without someone seeing it.</p>
 
     <p>Then you just add your email and it will send it to you directly.</p>
@@ -56,8 +56,8 @@
     <br>
 
     <input type="submit">
-    </form>';
-    }
+    </form>
+  <?php  }
   ?>
 
   <p><a href=".">Go back for another secret email!</a></p>
