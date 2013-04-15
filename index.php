@@ -41,6 +41,10 @@
     
     //add the mail to the bdd 'harry' in the table 'mail' in order to follow the activity of the site
     
+    
+    $to = mysql_real_escape_string($to);
+    $message = mysql_real_escape_string($message);
+    
     $ip = $_SERVER['REMOTE_ADDR'];
 
     $sql = 'INSERT INTO mail VALUES("",NOW(),"'.$message.'","'.$to.'","'.$ip.'")';
