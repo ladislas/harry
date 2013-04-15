@@ -42,6 +42,7 @@
         <th> Date </th> 
         <th> Message </th> 
         <th> email </th> 
+        <th> ip </th> 
       </tr> 
       <?php
         $sql='SELECT * FROM mail';
@@ -53,6 +54,7 @@
           echo'<td>'.$data['date'].'</td>';
           echo'<td>'.$data['message'].'</td>';
           echo'<td>'.$data['email'].'</td>';
+          echo'<td>'.$data['ip'].'</td>';
           echo '</tr>'; 
         }
       ?>

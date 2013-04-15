@@ -40,7 +40,10 @@
     mail($to, $subject, $message, "From: Harry@wishyouwell.com");
     
     //add the mail to the bdd 'harry' in the table 'mail' in order to follow the activity of the site
-    $sql = 'INSERT INTO mail VALUES("",NOW(),"'.$message.'","'.$to.'")';
+    
+    $ip = $_SERVER['REMOTE_ADDR'];
+
+    $sql = 'INSERT INTO mail VALUES("",NOW(),"'.$message.'","'.$to.'","'.$ip.'")';
     $req = requete($sql);
 
     echo "<h2>Thank you for using our mail form</h2>";
