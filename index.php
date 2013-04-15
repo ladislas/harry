@@ -3,7 +3,15 @@
 <!-- ====== -->
 
 <?php 
-  require 'header.php';
+  require 'includes/functions.php';
+?>
+
+<!-- ====== -->
+<!-- HEADER -->
+<!-- ====== -->
+
+<?php 
+  require 'includes/header.php';
 ?>
 
 <!-- ====== -->
@@ -11,7 +19,7 @@
 <!-- ====== -->
 
 <?php 
-  require 'navbar.php';
+  require 'includes/navbar.php';
 ?>
 
 <div class="master container"> 
@@ -69,6 +77,6 @@
 <!-- ====== -->
 
 <?php 
-  require 'footer.php';
+  require 'includes/footer.php';
 ?>
 
