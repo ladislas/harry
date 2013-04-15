@@ -10,7 +10,9 @@
 <!-- HEADER -->
 <!-- ====== -->
 
+
 <?php 
+  $titre="Home";
   require 'includes/header.php';
 ?>
 
