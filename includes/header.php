@@ -18,7 +18,7 @@
 	
 	<meta name="keywords" content="secret, notes, secret notes, harry, secrets, note, wish, you, well, friend"/>
 	
-	<meta name="author" content="tinyladi&amp;&amp;mickael">
+	<meta name="author" content="tinyladi&amp;&amp;mickael&amp;&amp;melki">
 
 	<!-- Le styles -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
