@@ -13,7 +13,7 @@
 		<div class="thanksto">
 
 			<p>Design adapted from <a href="http://twitter.github.com/bootstrap/" alt="Twitter Bootstrap">Twitter Bootstrap</a></p>
-			<p>Designed and built with all the love in the world by <a href="https://github.com/tinyladi" target="_blank">@tinyladi</a> and <a href="https://github.com/leka-mickael" target="_blank">@micka</a>.</p>
+			<p>Designed and built with all the love in the world by <a href="https://github.com/tinyladi" target="_blank">@tinyladi</a>, <a href="https://github.com/leka-mickael" target="_blank">@micka</a> & <a href="https://github.com/melki" target="_blank">@melki</a>.</p>
 
 		</div>	<!-- thanksto -->
 
@@ -30,6 +30,7 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/prettify.js"></script>
 <script type="text/javascript" src="js/harry.js"></script>
+
 
 
 </body>

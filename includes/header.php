@@ -5,7 +5,12 @@
 <head>	
 	<meta charset="utf-8">
 	
-	<title>Harry Wish You Well</title>
+	<title>
+		<?php
+			//pour avoir un titre par page
+			if(isset($titre)) { echo 'Harry Wish You Well | '.$titre; }
+		 ?>
+	</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -13,7 +18,7 @@
 	
 	<meta name="keywords" content="secret, notes, secret notes, harry, secrets, note, wish, you, well, friend"/>
 	
-	<meta name="author" content="tinyladi&amp;&amp;mickael">
+	<meta name="author" content="tinyladi&amp;&amp;mickael&amp;&amp;melki">
 
 	<!-- Le styles -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
