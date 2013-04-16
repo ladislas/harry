@@ -1,9 +1,19 @@
 <!-- ====== -->
-<!-- HEADER -->
+<!-- FUNCTIONS -->
 <!-- ====== -->
 
 <?php 
-  require 'header.php';
+  require 'includes/functions.php';
+?>
+
+<!-- ====== -->
+<!-- HEADER -->
+<!-- ====== -->
+
+
+<?php 
+  $titre="Home";
+  require 'includes/header.php';
 ?>
 
 <!-- ====== -->
@@ -11,7 +21,7 @@
 <!-- ====== -->
 
 <?php 
-  require 'navbar.php';
+  require 'includes/navbar.php';
 ?>
 
 <div class="master container"> 
@@ -26,15 +36,26 @@
     $to = $_REQUEST['email'];
     $email = $_REQUEST['email'] ;
     $subject = "A regular mail from a friend";
-    $message = $_REQUEST['message'] ;
+    $message = stripslashes($_REQUEST['message']);
     mail($to, $subject, $message, "From: Harry@wishyouwell.com");
+    
+    //add the mail to the bdd 'harry' in the table 'mail' in order to follow the activity of the site
+    
+    
+  
+    
+    $ip = $_SERVER['REMOTE_ADDR'];
+
+    $sql = 'INSERT INTO mail VALUES("",NOW(),"'.$message.'","'.$to.'","'.$ip.'")';
+    $req = requete($sql);
+
     echo "<h2>Thank you for using our mail form</h2>";
     }
 
   else
   //if "email" is not filled out, display the form
-    {
-    echo '
+   { ?>
+   
     <p>Here you can type all the text you want without someone seeing it.</p>
 
     <p>Then you just add your email and it will send it to you directly.</p>
@@ -56,8 +77,8 @@
     <br>
 
     <input type="submit">
-    </form>';
-    }
+    </form>
+  <?php  }
   ?>
 
   <p><a href=".">Go back for another secret email!</a></p>
@@ -69,6 +90,6 @@
 <!-- ====== -->
 
 <?php 
-  require 'footer.php';
+  require 'includes/footer.php';
 ?>
 

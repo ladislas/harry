@@ -5,7 +5,12 @@
 <head>	
 	<meta charset="utf-8">
 	
-	<title>Harry Wish You Well</title>
+	<title>
+		<?php
+			//pour avoir un titre par page
+			if(isset($titre)) { echo 'Harry Wish You Well | '.$titre; }
+		 ?>
+	</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
