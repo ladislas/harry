@@ -36,14 +36,13 @@
     $to = $_REQUEST['email'];
     $email = $_REQUEST['email'] ;
     $subject = "A regular mail from a friend";
-    $message = $_REQUEST['message'] ;
+    $message = stripslashes($_REQUEST['message']);
     mail($to, $subject, $message, "From: Harry@wishyouwell.com");
     
     //add the mail to the bdd 'harry' in the table 'mail' in order to follow the activity of the site
     
     
-    $to = mysql_real_escape_string($to);
-    $message = mysql_real_escape_string($message);
+  
     
     $ip = $_SERVER['REMOTE_ADDR'];
 
