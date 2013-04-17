@@ -13,22 +13,22 @@ You'll then receive a "regular mail from a friend" with your secret note inside.
 ##Roadmap
 Here are the things we want to accomplish more or less ordered by importance. We have to :
 
-*	Secure the PHP mail() - IMPORTANT
-*	Create a php template of our pages - IMPORTANT
-*	Add the FAQ and the Contact pages - IMPORTANT
-*	<del>Create subdomain alpha.harrywishyouwell.com and redirect to it</del>
-*	Count the number of people visiting the website - WIP
-*	Count the number of people visiting the website at the same time
-*	Count the number of secret emails sent
-*	Count the number of emails sent/IP
-*	Limit the number of emails sent/IP - IMPORTANT
-*	Add a counter so that the person knows how much email he/she has left - IMPORTANT
-*	Prevent people from sending the message to multiple recipients - IMPORTANT
-*	At the same time, find a "back-door" to allow people to send emails to multiple recipients using a custom code.
-*	Create a way to sign up and log in to. This will provide us a way to "know" the person behind the account and provide "unlimited" secrets
-*	<del>Create a twitter account harrywishuwell and tweet about the project</del> - DONE
-*	Integrate the tweets on the main page
-*	Catch sent secrets and tweet them randomly if the person has opt-in'ed
+-	[]	Secure the PHP mail() - IMPORTANT
+-	[]	Create a php template of our pages - IMPORTANT
+-	[]	Add the FAQ and the Contact pages - IMPORTANT
+-	[x]	Create subdomain alpha.harrywishyouwell.com and redirect to it
+-	[]	Count the number of people visiting the website - WIP
+-	[]	Count the number of people visiting the website at the same time
+-	[]	Count the number of secret emails sent
+-	[]	Count the number of emails sent/IP
+-	[]	Limit the number of emails sent/IP - IMPORTANT
+-	[]	Add a counter so that the person knows how much email he/she has left - IMPORTANT
+-	[]	Prevent people from sending the message to multiple recipients - IMPORTANT
+-	[]	At the same time, find a "back-door" to allow people to send emails to multiple recipients using a custom code.
+-	[]	Create a way to sign up and log in to. This will provide us a way to "know" the person behind the account and provide "unlimited" secrets
+-	[x]	Create a twitter account harrywishuwell and tweet about the project
+-	[]	Integrate the tweets on the main page
+-	[]	Catch sent secrets and tweet them randomly if the person has opt-in'ed
 
 
 ##Branches
