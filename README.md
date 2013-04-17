@@ -13,6 +13,12 @@ You'll then receive a "regular mail from a friend" with your secret note inside.
 ##Roadmap
 Here are the things we want to accomplish more or less ordered by importance. We have to :
 
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed
+
 -	[]	Secure the PHP mail() - IMPORTANT
 -	[]	Create a php template of our pages - IMPORTANT
 -	[]	Add the FAQ and the Contact pages - IMPORTANT
