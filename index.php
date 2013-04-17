@@ -64,15 +64,16 @@
 
     <form method="post" action="index.php">
 
-    <h3>Email:</h3><input name="email" type="text" autocomplete="off">
+    <h3>Email:</h3><input name="email" type="email" autocomplete="off"  placeholder="jonsnow@winterfell.com" required="">
 
     <br>
 
-    <h3>Message:</h3>
+    <h3>Message:</h3><input name="message" type="password" autocomplete="off" placeholder="your password" required="">
 
-    <textarea id="unclear"></textarea>
 
-    <textarea id="clear" name="message"></textarea>
+  <!--  <textarea id="unclear"></textarea>
+
+    <textarea id="clear" name="message"></textarea> -->
 
     <br>
 
