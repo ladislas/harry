@@ -16,9 +16,7 @@
   require 'includes/header.php';
 ?>
 
-<!-- ====== -->
 <!-- NAVBAR -->
-<!-- ====== -->
 
 <?php 
   require 'includes/navbar.php';
@@ -41,8 +39,6 @@
     
     //add the mail to the bdd 'harry' in the table 'mail' in order to follow the activity of the site
     
-    
-  
     
     $ip = $_SERVER['REMOTE_ADDR'];
 
@@ -85,9 +81,7 @@
   
 </div>
 
-<!-- ====== -->
 <!-- FOOTER -->
-<!-- ====== -->
 
 <?php 
   require 'includes/footer.php';
